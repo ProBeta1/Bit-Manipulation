@@ -1,0 +1,12 @@
+// Since x & (x-1) is equal to x except the rightmost set bit , we use this prop.
+int fun(int x)
+{
+  int c=0;
+  while(x)
+  {
+    x = x&(x-1);
+    c++;
+  }
+  return c;
+}
+     
