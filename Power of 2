@@ -1,4 +1,7 @@
+
 //  x & (x-1) returns 0 if x is power of 2
+/* x & (x-1) is same as x except for the rightmost bit
+   AND since any number which is power of 2 has only one bit set , therefore it returns 0 */
 int powo2(int x)
 {
    return ( x &&  !(x&(x-1)) )
