@@ -1,0 +1,15 @@
+// To check if the ith bit is one or not
+bool fn(int x,int i)
+{
+  return x&(1<<i);         //returns 1 if ith bit is set
+}
+
+
+// To make ith bit one
+
+  x|(1<<i);
+
+// To flip ith bit
+
+  x^(1<<i);
+ 
