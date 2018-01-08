@@ -1,0 +1,7 @@
+//  x & (x-1) returns 0 if x is power of 2
+int powo2(int x)
+{
+   return ( x &&  !(x&(x-1)) )
+}
+
+//Here 'and' is taken so that even if x==0 , that case is removed.
