@@ -1,4 +1,4 @@
-void biny(long long int A, long long B,long long M)
+long long biny(long long int A, long long B,long long M)
 {
    if(B==0)
         return 1;                    //As pow(A,0) = 1
